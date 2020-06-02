@@ -12,7 +12,7 @@ create table email_address (
 
 create table pending_email (
   id_pending_email              bigint auto_increment not null,
-  request_json                  longtext,
+  request_json                  longtext not null,
   email_address_id_email_address bigint,
   constraint pk_pending_email primary key (id_pending_email)
 );
