@@ -20,3 +20,7 @@ libraryDependencies ++= Seq(
   "org.glassfish.jaxb" % "jaxb-core" % "2.3.0.1",
   "org.glassfish.jaxb" % "jaxb-runtime" % "2.3.2"
 )
+
+// Email Support
+libraryDependencies += "com.typesafe.play" %% "play-mailer" % "8.0.0"
+libraryDependencies += "com.typesafe.play" %% "play-mailer-guice" % "8.0.0"
